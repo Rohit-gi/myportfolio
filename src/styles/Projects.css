@@ -2,13 +2,14 @@
   width: 100%;
   height: auto;
   display: flex;
+  color: rgb(42, 104, 180);
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .projects .projectTitle {
   text-align: center;
-  color: #3e497a;
+  color: rgb(42, 104, 180);
   font-size: 60px;
   font-weight: bolder;
 }
@@ -28,6 +29,7 @@
   width: 300px;
   height: 300px;
   margin: 40px;
+  color:rgb(42, 104, 180);
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
@@ -48,6 +50,7 @@
 }
 
 .projectItem h1 {
+  color: rgb(42, 104, 180);
   font-size: 25px;
 }
 

@@ -22,7 +22,7 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, NPM, BootStrap, MaterialUI, TailwindCSS, StyledComponents
+              ReactJS, HTML, CSS, NPM, BootStrap, MaterialUI, TailwindCSS, Styled-Components
             </span>
           </li>
           <li className="item">

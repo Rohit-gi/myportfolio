@@ -14,7 +14,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014 - 2018"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "rgb(42, 104, 180)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -30,7 +30,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2023 - 2024"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "rgb(42, 104, 180)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -50,12 +50,12 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Frontend Developer - Meesho
+            Growth Marketing Associate - Meesho
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Bengaluru, Karnataka
           </h4>
-          <p>Executed front-end development projects aligned with the growth team's marketing experiments</p>
+          <p>Executed user acquisition and activation projects aligned with the growth team's remarketing charter</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
