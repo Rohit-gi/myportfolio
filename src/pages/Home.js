@@ -17,22 +17,22 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1> Skills</h1>
+        <h2> Skills</h2>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
+            <h4> Front-End</h4>
             <span>
-              ReactJS, HTML, CSS, NPM, BootStrap, MaterialUI, TailwindCSS, Styled-Components
+              ReactJS, HTML, CSS, NPM, BootStrap, Material UI, Tailwind CSS, Styled-Components
             </span>
           </li>
           <li className="item">
-            <h2>Back-End</h2>
+            <h4>Back-End</h4>
             <span>
             MySQL, NodeJS          
             </span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
+            <h4>Languages</h4>
             <span>JavaScript, TypeScript, Python</span>
           </li>
         </ol>
