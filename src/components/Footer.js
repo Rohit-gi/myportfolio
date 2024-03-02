@@ -14,7 +14,7 @@ function Footer() {
         <FacebookIcon />
         <LinkedInIcon />
       </div>
-      <p> &copy; 2023 Rohit's Frontend Portfolio </p>
+      <p> &copy; 2024 Rohit's Frontend Portfolio </p>
     </div>
   );
 }
