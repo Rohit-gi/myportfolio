@@ -1,20 +1,17 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
+      <h2>Contact:</h2>
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
+        <EmailIcon/>
         <LinkedInIcon />
       </div>
-      <p> &copy; 2024 Rohit's Frontend Portfolio </p>
+      <p> &copy; 2024 Rohit's Portfolio </p>
     </div>
   );
 }

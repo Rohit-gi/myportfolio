@@ -11,26 +11,11 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2014 - 2018"
-          iconStyle={{ background: "rgb(42, 104, 180)", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Delhi Technological University
-          </h3>
-          
-          <h4 className="vertical-timeline-element-subtitle">
-             New Delhi, Delhi
-          </h4>
 
-          <p> Bachelor of Technology</p>
-        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2023 - 2024"
-          iconStyle={{ background: "rgb(42, 104, 180)", color: "#fff" }}
+          date={<span style={{ color: "#cdcdff" }}>2023 - 2025</span>}
+          iconStyle={{ background: "#23283e", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -41,16 +26,16 @@ function Experience() {
              Wisconsin, USA 
           </h4>
 
-          <p> Master of Science - Information Sciences</p>
+          <p> Master of Science - Information Science</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2021 - 2023"
+          date={<span style={{ color: "#cdcdff" }}>2021 - 2023</span>}
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Growth Marketing Associate - Meesho
+            Associate, Growth Marketing - Meesho
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Bengaluru, Karnataka
@@ -60,12 +45,12 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2019 - 2021"
+          date={<span style={{ color: "#cdcdff" }}>2019 - 2021</span>}
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Web Developer - Blemacion Tech
+            Web Developer - Blemacion Technologies
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             New Delhi, Delhi
@@ -73,6 +58,22 @@ function Experience() {
           <p>
           Implemented front-end projects for diverse clients, utilizing HTML, CSS, JavaScript, and React components.
           </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date={<span style={{ color: "#cdcdff" }}>2014 - 2018</span>}
+          iconStyle={{ background: "#23283e", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Delhi Technological University
+          </h3>
+          
+          <h4 className="vertical-timeline-element-subtitle">
+             New Delhi, Delhi
+          </h4>
+
+          <p> Bachelor of Technology, Mechanical Engineering</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

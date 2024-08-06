@@ -8,21 +8,33 @@
 }
 
 .project h1 {
-  margin-top: 50px;
-  color: rgb(42, 104, 180);
-  font-size: 35px;
+  color: #cdcdff;
+  font-size: 2rem;
+  margin-top: 3rem;
 }
 .project img {
-  width: 700px;
+  margin-top: 2rem;
+  width: 33rem;
   border-radius: 10px;
 }
 
-.project p {
-  font-size: 40px;
-  color: rgb(42, 104, 180);
+.project h4 {
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: #cdcdff;
 }
 
 .project svg {
-  font-size: 60px;
-  color: rgb(42, 104, 180);
+  font-size: 40px;
+  color: #cdcdff;
+}
+
+.desc {
+  max-width: 40%;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
+  color:#cdcdff;
+  margin: 2rem;
 }

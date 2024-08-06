@@ -1,6 +1,8 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
+// import EmailIcon from "@material-ui/icons/Email";
+import ProjectItem from "../components/ProjectItem";
+import { ProjectList } from "../helpers/ProjectList";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
@@ -8,34 +10,55 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My name is Rohit</h2>
+        <h2> Hi, I am Rohit</h2>
+        <h3>A Front End Developer</h3>
+        <div className="desc">
+          <p>
+            Experienced in creating intuitive user interfaces using JavaScript.
+            Actively learning and applying the latest web technologies to
+            enhance user experience and contribute to effective product
+            development.
+          </p>
+        </div>
         <div className="prompt">
-          <p>A software developer with a keen focus in development using latest web technologies</p>
+          <a href="https://example.com">
+            <span type="button" class="btn btn--outline">
+              Resume
+            </span>
+          </a>
           <LinkedInIcon />
-          <EmailIcon />
           <GithubIcon />
         </div>
       </div>
-      <div className="skills">
-        <h2> Skills</h2>
-        <ol className="list">
-          <li className="item">
-            <h4> Front-End</h4>
-            <span>
-              ReactJS, HTML, CSS, NPM, BootStrap, Material UI, Tailwind CSS, Styled-Components
-            </span>
-          </li>
-          <li className="item">
-            <h4>Back-End</h4>
-            <span>
-            MySQL, NodeJS          
-            </span>
-          </li>
-          <li className="item">
-            <h4>Languages</h4>
-            <span>JavaScript, TypeScript, Python</span>
-          </li>
-        </ol>
+      <div className="projects">
+        <h1>LATEST PROJECTS</h1>
+        <div className="projectList">
+          {ProjectList.slice(0, 3).map((project, idx) => (
+            <ProjectItem
+              key={idx}
+              id={idx}
+              name={project.name}
+              image={project.image}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="skills_section">
+        <h1> Skills</h1>
+        <ul className="skills_list">
+          <li className="skills_list-item button">HTML</li>
+          <li className="skills_list-item ">CSS</li>
+          <li className="skills_list-item ">JavaScript</li>
+          <li className="skills_list-item ">TypeScript</li>
+          <li className="skills_list-item ">React.js</li>
+          <li className="skills_list-item ">ContextAPI</li>
+          <li className="skills_list-item ">Redux</li>
+          <li className="skills_list-item ">SASS</li>
+          <li className="skills_list-item ">BootStrap</li>
+          <li className="skills_list-item ">Material UI</li>
+          <li className="skills_list-item ">Styled-Components</li>
+        </ul>
       </div>
     </div>
   );
