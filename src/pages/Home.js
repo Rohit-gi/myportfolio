@@ -21,13 +21,26 @@ function Home() {
           </p>
         </div>
         <div className="prompt">
-          <a href="https://example.com">
+          <a href="/assets/Rohit_resume.pdf" target="_blank"
+            rel="noopener noreferrer">
             <span type="button" class="btn btn--outline">
               Resume
             </span>
           </a>
-          <LinkedInIcon />
-          <GithubIcon />
+          <a
+            href="https://www.linkedin.com/in/rohit-k96/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkedInIcon />
+          </a>
+          <a
+            href="https://github.com/Rohit-gi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="projects">

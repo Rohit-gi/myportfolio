@@ -1,7 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
-import GitHubIcon from "@material-ui/icons/GitHub";
+import OpenInNewIcon from '@material-ui/icons/OpenInNew';
+
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
@@ -14,7 +15,13 @@ function ProjectDisplay() {
       <h4>
         <b>Skills:</b> {project.skills}
       </h4>
-      <GitHubIcon />
+      <a
+            href={project.projLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+      <OpenInNewIcon/>
+      </a>
       <p className="desc">{project.description}</p>
     </div>
   );
