@@ -14,7 +14,7 @@ export const ProjectList = [
     image: Proj1,
     skills: "PHP, JavaScript, HTML, SCSS",
     description: "Redesigning and developing Global Cryosphere Watch web application utilizing HTML, CSS, JavaScript, PHP and WordPress. Developing custom plugins, 5+ tables with advanced multiple filters and implementing download functionality for snow trackers",
-    projLink: "",
+    projLink: "https://globalcryospherewatch.org/",
   },
   {
     name: "Admin Panel Dashboard",

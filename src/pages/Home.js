@@ -21,9 +21,9 @@ function Home() {
           </p>
         </div>
         <div className="prompt">
-          <a href="/assets/Rohit_resume.pdf" target="_blank"
+          <a href="https://rohit-gi.github.io/myportfolio/#/resume" target="_blank"
             rel="noopener noreferrer">
-            <span type="button" class="btn btn--outline">
+            <span type="button" className="btn btn--outline">
               Resume
             </span>
           </a>
