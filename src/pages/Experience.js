@@ -35,12 +35,12 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Associate, Growth Marketing - Meesho
+            Frontend Developer - Meesho
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Bengaluru, Karnataka
           </h4>
-          <p>Executed user acquisition and activation projects aligned with the growth team's remarketing charter</p>
+          <p>Developed frontend solutions for Meesho</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -50,7 +50,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Web Developer - Blemacion Technologies
+            Software Engineer (Frontend) - Blemacion Technologies
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             New Delhi, Delhi
@@ -73,7 +73,7 @@ function Experience() {
              New Delhi, Delhi
           </h4>
 
-          <p> Bachelor of Technology, Mechanical Engineering</p>
+          <p> Bachelor of Technology, Engineering</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

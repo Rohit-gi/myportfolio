@@ -35,7 +35,7 @@ export const ProjectList = [
     image: Proj4,
     skills: "HTML, CSS, WordPress",
     description: "Redesigned the ZARA website utilizing plugins like Elementor and WooCommerce to improve user experience and responsiveness using HTML, CSS, and WordPress.",
-    projLink: "/assets/zara_vid.mp4",
+    projLink: "https://drive.google.com/file/d/1-A-n2RpKmcWzwhiAJ7y8cFcM_2z8g8eF/view?usp=drive_link",
   },
   {
     name: "Survey Builder Tool",
